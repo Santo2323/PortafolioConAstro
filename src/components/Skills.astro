@@ -1,0 +1,62 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4 ">
+		<img style="width: 50px;" src="/assets/book.png" alt="book">
+		<h2>Knowledge Navigator</h2>
+		<p>Embracing Technological Evolution with a Mindset of Perpetual Learning</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<img style="width: 50px;" src="/assets/lupa.png" alt="lupa">
+		<h2>Solution Architect</h2>
+		<p>Designing and Optimizing Code with an Analytical and Insightful Mind</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<img style="width: 50px;" src="/assets/burbuja-dialogo.png" alt="dialogo">
+		<h2>Code Conversationalist</h2>
+		<p>Weaving Connections through Clear Dialogue between Humans and Machines</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>

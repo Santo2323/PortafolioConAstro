@@ -154,4 +154,4 @@ const _404 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 	url: $$url
 }, Symbol.toStringTag, { value: 'Module' }));
 
-export { $$Icon as $, _404 as _, $$BaseLayout as a, $$Hero as b };
+export { $$Icon as $, _404 as _, $$Hero as a, $$BaseLayout as b };

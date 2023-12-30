@@ -1,10 +1,27 @@
 /* empty css                          */
-import { c as createAstro, d as createComponent, r as renderTemplate, f as renderComponent, m as maybeRenderHead } from '../astro_7Qy-BraY.mjs';
+import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, e as addAttribute, i as renderSlot, f as renderComponent } from '../astro_7Qy-BraY.mjs';
 import 'kleur/colors';
 import 'clsx';
-import { b as $$Hero, a as $$BaseLayout } from './404_SBMaCye4.mjs';
-import { $ as $$ContactCTA } from './__0UqjjS9j.mjs';
+import { $ as $$Icon, a as $$Hero, b as $$BaseLayout } from './404_invK-ZzS.mjs';
 /* empty css                          */
+/* empty css                          */
+
+const $$Astro$2 = createAstro();
+const $$CallToAction = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  Astro2.self = $$CallToAction;
+  const { href } = Astro2.props;
+  return renderTemplate`${maybeRenderHead()}<a${addAttribute(href, "href")} data-astro-cid-balv45lp>${renderSlot($$result, $$slots["default"])}</a> `;
+}, "/Users/beron-de-astrada/Desktop/Proyectos/Proyectos Personales/portfolio-template/portafolio-template/src/components/CallToAction.astro", void 0);
+
+const $$Astro$1 = createAstro();
+const $$ContactCTA = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  Astro2.self = $$ContactCTA;
+  return renderTemplate`${maybeRenderHead()}<aside data-astro-cid-rcdzuq3a> <h2 data-astro-cid-rcdzuq3a>Interested in working together?</h2> ${renderComponent($$result, "CallToAction", $$CallToAction, { "href": "mailto:santiagobdea@gmail.com", "data-astro-cid-rcdzuq3a": true }, { "default": ($$result2) => renderTemplate`
+Send Me a Message
+${renderComponent($$result2, "Icon", $$Icon, { "icon": "paper-plane-tilt", "size": "1.2em", "data-astro-cid-rcdzuq3a": true })} ` })} </aside> `;
+}, "/Users/beron-de-astrada/Desktop/Proyectos/Proyectos Personales/portfolio-template/portafolio-template/src/components/ContactCTA.astro", void 0);
 
 const $$Astro = createAstro();
 const $$About = createComponent(async ($$result, $$props, $$slots) => {
@@ -32,4 +49,11 @@ Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra al
 const $$file = "/Users/beron-de-astrada/Desktop/Proyectos/Proyectos Personales/portfolio-template/portafolio-template/src/pages/about.astro";
 const $$url = "/about";
 
-export { $$About as default, $$file as file, $$url as url };
+const about = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+	__proto__: null,
+	default: $$About,
+	file: $$file,
+	url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+export { $$CallToAction as $, $$ContactCTA as a, about as b };

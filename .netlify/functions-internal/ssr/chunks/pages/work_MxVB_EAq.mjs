@@ -4,7 +4,7 @@ import 'kleur/colors';
 import 'clsx';
 import { a as $$Hero, b as $$BaseLayout } from './404_invK-ZzS.mjs';
 import { a as $$ContactCTA } from './about_yo-mG2wH.mjs';
-import { $ as $$Grid, p as projects, a as $$PortfolioPreview } from './index_O268z7qY.mjs';
+import { $ as $$Grid, p as projects, a as $$PortfolioPreview } from './index__TmvXnlr.mjs';
 
 const $$Astro = createAstro();
 const $$Work = createComponent(async ($$result, $$props, $$slots) => {

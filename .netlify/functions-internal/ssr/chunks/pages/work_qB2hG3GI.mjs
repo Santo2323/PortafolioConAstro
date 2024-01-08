@@ -2,9 +2,9 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, f as renderComponent, m as maybeRenderHead } from '../astro_7Qy-BraY.mjs';
 import 'kleur/colors';
 import 'clsx';
-import { a as $$Hero, b as $$BaseLayout } from './404_invK-ZzS.mjs';
-import { a as $$ContactCTA } from './about_yo-mG2wH.mjs';
-import { $ as $$Grid, p as projects, a as $$PortfolioPreview } from './index__TmvXnlr.mjs';
+import { a as $$Hero, b as $$BaseLayout } from './404_JvODm0Nx.mjs';
+import { a as $$ContactCTA } from './about_FsrbJ-S2.mjs';
+import { $ as $$Grid, p as projects, a as $$PortfolioPreview } from './index_LeIGfdbV.mjs';
 
 const $$Astro = createAstro();
 const $$Work = createComponent(async ($$result, $$props, $$slots) => {

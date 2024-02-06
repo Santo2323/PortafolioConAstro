@@ -28,8 +28,8 @@ export const projects: Project[] = [
       description: "Tasty Dough, an App for online orders",
       publishDate: new Date(),
       tags: ['Flutter', 'Node TS', 'PostgreSQL'],
-      img: "/assets/tasty-dough.png",
-      img_alt: "/assets/tasty-dough.png",
+      img: "/assets/Tasty_Portada.png",
+      img_alt: "/assets/Tasty_Portada.png",
     },
   },
   {
@@ -42,22 +42,8 @@ export const projects: Project[] = [
       description: "MF Seguridad, an application for your gated neighborhood's security",
       publishDate: new Date(),
       tags: ['Ionic', 'Angular', 'Capacitor', 'Node TS', 'WebSockets', 'PostgreSQL'],
-      img: "/assets/mf-seguridad.png",
-      img_alt: "/assets/mf-seguridad.png",
-    },
-  },
-  {
-    id: "3",
-    slug: "medical-app",
-    body: "At the heart of the healthcare revolution lies Medical App, a comprehensive application designed to optimize appointment management in healthcare institutions. This project addresses the complexity of medical planning, offering an advanced and complete solution. With Medical App, managing schedules becomes multifunctional, allowing for the planning of medical appointments considering various procedures, rooms, and operating doctors. Each primary doctor has their own schedule, facilitating efficient management of their appointments. The application goes further by associating medical procedures with previous studies and files. This ensures a comprehensive approach to patient care, allowing doctors to easily access relevant information to make informed and personalized decisions. The dynamic management of appointments is a central feature of Medical App. Users can confirm, cancel, or reschedule appointments with ease, providing flexibility to both patients and healthcare professionals. Each operating doctor has their own personalized account to manage their specialty and schedules. The application also simplifies patient search, allowing doctors to access their medical history, which includes detailed information about each appointment and associated documentation. This feature facilitates medical decision-making by providing quick access to relevant and complete information. Medical App goes beyond appointment management by offering the ability to generate detailed statistics on scheduled appointments. This provides valuable insights to optimize the management of the medical institution, continually improving the quality of services. Discover how Medical App can transform your medical institution and take appointment management to a new level of efficiency and quality. Join the healthcare revolution today!",
-    collection: "work",
-    data: {
-      title: "Medical App",
-      description: "Medical App, an app for medical institutions",
-      publishDate: new Date(),
-      tags: ['Ionic', 'Angular', 'Capacitor', 'Node TS', 'PostgreSQL'],
-      img: "/assets/medical-app.png",
-      img_alt: "/assets/medical-app.png",
+      img: "/assets/M-Seguridad-Portada.png",
+      img_alt: "/assets/M-Seguridad-Portada.png",
     },
   },
   {
@@ -73,5 +59,20 @@ export const projects: Project[] = [
       img: "/assets/makesi1.png",
       img_alt: "/assets/makesi1.png",
     },
-  }
+  },
+  {
+    id: "3",
+    slug: "medical-app",
+    body: "At the heart of the healthcare revolution lies Medical App, a comprehensive application designed to optimize appointment management in healthcare institutions. This project addresses the complexity of medical planning, offering an advanced and complete solution. With Medical App, managing schedules becomes multifunctional, allowing for the planning of medical appointments considering various procedures, rooms, and operating doctors. Each primary doctor has their own schedule, facilitating efficient management of their appointments. The application goes further by associating medical procedures with previous studies and files. This ensures a comprehensive approach to patient care, allowing doctors to easily access relevant information to make informed and personalized decisions. The dynamic management of appointments is a central feature of Medical App. Users can confirm, cancel, or reschedule appointments with ease, providing flexibility to both patients and healthcare professionals. Each operating doctor has their own personalized account to manage their specialty and schedules. The application also simplifies patient search, allowing doctors to access their medical history, which includes detailed information about each appointment and associated documentation. This feature facilitates medical decision-making by providing quick access to relevant and complete information. Medical App goes beyond appointment management by offering the ability to generate detailed statistics on scheduled appointments. This provides valuable insights to optimize the management of the medical institution, continually improving the quality of services. Discover how Medical App can transform your medical institution and take appointment management to a new level of efficiency and quality. Join the healthcare revolution today!",
+    collection: "work",
+    data: {
+      title: "Medical App",
+      description: "Medical App, an app for medical institutions",
+      publishDate: new Date(),
+      tags: ['Ionic', 'Angular', 'Capacitor', 'Node TS', 'PostgreSQL'],
+      img: "/assets/Medical-App-Portada.png",
+      img_alt: "/assets/Medical-App-Portada.png",
+    },
+  },
+
 ];

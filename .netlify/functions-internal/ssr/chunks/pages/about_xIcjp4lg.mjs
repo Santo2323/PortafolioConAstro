@@ -2,7 +2,7 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, e as addAttribute, i as renderSlot, f as renderComponent } from '../astro_7Qy-BraY.mjs';
 import 'kleur/colors';
 import 'clsx';
-import { $ as $$Icon, a as $$Hero, b as $$BaseLayout } from './404_u3UN9cou.mjs';
+import { $ as $$Icon, a as $$Hero, b as $$BaseLayout } from './404_2V9Vp3J6.mjs';
 /* empty css                          */
 /* empty css                          */
 

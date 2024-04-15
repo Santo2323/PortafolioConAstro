@@ -43,10 +43,29 @@ const { entry } = Astro.props;
           {entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
           <div class="content">
 			{entry.body}
-            {/* Aquí puedes incluir cualquier contenido dinámico de 'entry' */}
           </div>
         </div>
       </main>
+
+	  	{entry.data.link_app_store !== '' && entry.data.link_play_store !== '' &&  (
+        	<div class="flex justify-around">
+        {/* Columna 1 */}
+        <div class="text-center">
+		  <a href={entry.data.link_app_store} target="_blank" rel="noopener noreferrer">
+          	<img src="/assets/download-app-store.svg" alt="Descarga en App Store" class="max-w-xs mx-auto" />
+		  </a>
+          {/* Opcional: texto debajo de la imagen */}
+        </div>
+        {/* Columna 2 */}
+        <div class="text-center">
+		<a href={entry.data.link_play_store} target="_blank" rel="noopener noreferrer">
+          <img src="/assets/download_play_store.svg" alt="Descarga en App Store" class="max-w-xs mx-auto" />
+		</a>
+          {/* Opcional: texto debajo de la imagen */}
+        </div>
+      </div>
+      	)}
+		
     </div>
     <ContactCTA />
   </div>
@@ -145,4 +164,3 @@ const { entry } = Astro.props;
 		}
 	}
 </style>
-../../content/data/_projects.js

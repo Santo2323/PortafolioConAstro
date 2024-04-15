@@ -2,8 +2,8 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, e as addAttribute, i as renderSlot, f as renderComponent } from '../astro_7Qy-BraY.mjs';
 import 'kleur/colors';
 import 'clsx';
-import { a as $$Hero, $ as $$Icon, b as $$BaseLayout } from './404_u3UN9cou.mjs';
-import { $ as $$CallToAction, a as $$ContactCTA } from './about_s11RkEeI.mjs';
+import { a as $$Hero, $ as $$Icon, b as $$BaseLayout } from './404_2V9Vp3J6.mjs';
+import { $ as $$CallToAction, a as $$ContactCTA } from './about_xIcjp4lg.mjs';
 /* empty css                          */
 /* empty css                          */
 /* empty css                          */
@@ -20,7 +20,9 @@ const projects = [
       publishDate: /* @__PURE__ */ new Date(),
       tags: ["Flutter", "Node TS", "PostgreSQL"],
       img: "/assets/Tasty_Portada.png",
-      img_alt: "/assets/Tasty_Portada.png"
+      img_alt: "/assets/Tasty_Portada.png",
+      link_app_store: "https://apps.apple.com/us/app/tasty-dough/id6473288745",
+      link_play_store: "https://play.google.com/store/apps/details?id=com.orbesoftware.tasty_doughs_frontend"
     }
   },
   {
@@ -34,7 +36,9 @@ const projects = [
       publishDate: /* @__PURE__ */ new Date(),
       tags: ["Ionic", "Angular", "Capacitor", "Node TS", "WebSockets", "PostgreSQL"],
       img: "/assets/M-Seguridad-Portada.png",
-      img_alt: "/assets/M-Seguridad-Portada.png"
+      img_alt: "/assets/M-Seguridad-Portada.png",
+      link_app_store: "https://apps.apple.com/ar/app/mf-seguridad/id6450516049",
+      link_play_store: "https://play.google.com/store/apps/details?id=com.MFSeguridad&pli=1"
     }
   },
   {
@@ -48,7 +52,9 @@ const projects = [
       publishDate: /* @__PURE__ */ new Date(),
       tags: ["HTML", "CSS", "Javascript"],
       img: "/assets/makesi1.png",
-      img_alt: "/assets/makesi1.png"
+      img_alt: "/assets/makesi1.png",
+      link_app_store: "",
+      link_play_store: ""
     }
   },
   {
@@ -62,7 +68,9 @@ const projects = [
       publishDate: /* @__PURE__ */ new Date(),
       tags: ["Ionic", "Angular", "Capacitor", "Node TS", "PostgreSQL"],
       img: "/assets/Medical-App-Portada.png",
-      img_alt: "/assets/Medical-App-Portada.png"
+      img_alt: "/assets/Medical-App-Portada.png",
+      link_app_store: "",
+      link_play_store: ""
     }
   }
 ];
@@ -121,27 +129,33 @@ Typescript
 Django
 ` })} </div> </div> ` })} <img alt="Santiago Beorn" width="480" height="620" src="/assets/portrait2.jpg" data-astro-cid-j7pv25f6> </header> ${renderComponent($$result2, "Skills", $$Skills, { "data-astro-cid-j7pv25f6": true })} </div> <main class="wrapper stack gap-20 lg:gap-48" data-astro-cid-j7pv25f6> <section class="section with-background with-cta" data-astro-cid-j7pv25f6> <header class="section-header stack gap-2 lg:gap-4" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Selected Work</h3> <p data-astro-cid-j7pv25f6>Take a look around some of my projects</p> </header> <div class="gallery" data-astro-cid-j7pv25f6> ${renderComponent($$result2, "Grid", $$Grid, { "variant": "offset", "data-astro-cid-j7pv25f6": true }, { "default": ($$result3) => renderTemplate`${projects.map((project) => renderTemplate`<li data-astro-cid-j7pv25f6> ${renderComponent($$result3, "PortfolioPreview", $$PortfolioPreview, { "project": project, "data-astro-cid-j7pv25f6": true })} </li>`)}` })} </div> <div class="cta" data-astro-cid-j7pv25f6> ${renderComponent($$result2, "CallToAction", $$CallToAction, { "href": "/work/", "data-astro-cid-j7pv25f6": true }, { "default": ($$result3) => renderTemplate`
 View All
-${renderComponent($$result3, "Icon", $$Icon, { "icon": "arrow-right", "size": "1.2em", "data-astro-cid-j7pv25f6": true })} ` })} </div> </section> <!-- <section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-		        TODO: seccion con mi progreso de la carrera
-				<div class="gallery"> 
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section> --> </main> ${renderComponent($$result2, "ContactCTA", $$ContactCTA, { "data-astro-cid-j7pv25f6": true })} </div> ` })} `;
+${renderComponent($$result3, "Icon", $$Icon, { "icon": "arrow-right", "size": "1.2em", "data-astro-cid-j7pv25f6": true })} ` })} </div> </section> <!--
+<section class="section with-background bg-variant">
+    <header class="section-header stack gap-2 lg:gap-4">
+        <h3>Engineering Degree Progress</h3>
+        <p>
+            Continuous Learning 
+        </p>
+    </header>
+    <div class="gallery"> 
+        <div class="container mx-auto py-10">
+            <div class="bg-gray-200 h-8 rounded-full overflow-hidden mb-32">
+                <div class="h-full" style="background-image: linear-gradient(to left, #1c0056, #7611a6, #c561f6); width: 40%;"></div>
+            </div>
+            <h5 class="my-20">Some subjects taken</h5>
+            <Grid variant="small">
+                {
+                    ['Algorithms and Data Structures', 'Programming Paradigms', 'Operating Systems', 'Systems and Organizations', 'Information Systems Analysis'].map((brand) => (
+                        <li class="mention-card">
+                            <p>{brand}</p>
+                        </li>
+                    ))
+                }
+            </Grid>
+        </div>
+    </div>
+</section>
+--> </main> ${renderComponent($$result2, "ContactCTA", $$ContactCTA, { "data-astro-cid-j7pv25f6": true })} </div> ` })} `;
 }, "/Users/beron-de-astrada/Desktop/Proyectos/Proyectos Personales/portfolio-template/portafolio-template/src/pages/index.astro", void 0);
 
 const $$file = "/Users/beron-de-astrada/Desktop/Proyectos/Proyectos Personales/portfolio-template/portafolio-template/src/pages/index.astro";

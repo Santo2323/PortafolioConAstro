@@ -6,6 +6,9 @@ export type ProjectData = {
   tags: string[];
   img: string;
   img_alt: string;
+  link_app_store: string
+  link_play_store: string
+
 }
 
 export type Project = {
@@ -30,6 +33,8 @@ export const projects: Project[] = [
       tags: ['Flutter', 'Node TS', 'PostgreSQL'],
       img: "/assets/Tasty_Portada.png",
       img_alt: "/assets/Tasty_Portada.png",
+      link_app_store: 'https://apps.apple.com/us/app/tasty-dough/id6473288745',
+      link_play_store: 'https://play.google.com/store/apps/details?id=com.orbesoftware.tasty_doughs_frontend'
     },
   },
   {
@@ -44,6 +49,8 @@ export const projects: Project[] = [
       tags: ['Ionic', 'Angular', 'Capacitor', 'Node TS', 'WebSockets', 'PostgreSQL'],
       img: "/assets/M-Seguridad-Portada.png",
       img_alt: "/assets/M-Seguridad-Portada.png",
+      link_app_store: 'https://apps.apple.com/ar/app/mf-seguridad/id6450516049',
+      link_play_store: 'https://play.google.com/store/apps/details?id=com.MFSeguridad&pli=1'
     },
   },
   {
@@ -58,6 +65,8 @@ export const projects: Project[] = [
       tags: ['HTML', 'CSS', 'Javascript'],
       img: "/assets/makesi1.png",
       img_alt: "/assets/makesi1.png",
+      link_app_store: '',
+      link_play_store: ''
     },
   },
   {
@@ -72,6 +81,8 @@ export const projects: Project[] = [
       tags: ['Ionic', 'Angular', 'Capacitor', 'Node TS', 'PostgreSQL'],
       img: "/assets/Medical-App-Portada.png",
       img_alt: "/assets/Medical-App-Portada.png",
+      link_app_store: '',
+      link_play_store: ''
     },
   },
 
